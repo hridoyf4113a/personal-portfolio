@@ -1,6 +1,6 @@
 'use client'
 import http from "http";
-import app from "./index.js";
+import app from "./app.js";
 const port = process.env.PORT || 4001;
 
 const server = http.createServer(app);
