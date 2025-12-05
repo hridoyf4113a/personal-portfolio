@@ -1,16 +1,16 @@
 {
   "name": "backend",
   "type": "module",
-  "main": "src/server.js",
+  "main": "src/app.js",
   "private": true,
   "devDependencies": {
     "@types/bun": "latest",
     "nodemon": "^3.0.1"
   },
   "scripts": {
-    "dev": "nodemon ./src/server.js",
+    "dev": "nodemon ./src/app.js",
     "build": "echo 'No build needed for Express'",
-    "start": "node ./src/server.js"
+    "start": "node ./src/app.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
